@@ -1,4 +1,5 @@
 # SwiftUI-Core-Data-List
+
 Extended sample program to demonstrate how CoreData can be used with SwiftUI.
 This sample has been sort of a play ground to try to duplicate or reinvent some familiar 
 UIKit patterns using SwiftUI that are common with some Core Data based Apps.
@@ -22,3 +23,5 @@ an appropriate View, which is usually different from the NavigationLink of the r
 =======================
 
 This project is still a work in progress.  Several more changes will be made in the near future.
+
+
