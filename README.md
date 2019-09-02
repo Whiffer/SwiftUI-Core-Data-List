@@ -1,4 +1,4 @@
-# SwiftUI-Core-Data-Data-List
+# SwiftUI-Core-Data-List
 Extended sample program to demonstrate how CoreData can be used with SwiftUI.
 This sample has been sort of a play ground to try to duplicate or reinvent some familiar 
 UIKit patterns using SwiftUI that are common with some Core Data based Apps.
