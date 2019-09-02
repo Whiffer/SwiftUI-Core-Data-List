@@ -22,4 +22,3 @@ an appropriate View, which is usually different from the NavigationLink of the r
 =======================
 
 This project is still a work in progress.  Several more changes will be made in the near future.
-
