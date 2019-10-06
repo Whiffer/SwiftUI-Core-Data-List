@@ -44,7 +44,6 @@ struct AttributeListView_Previews : PreviewProvider {
     static var previews: some View {
         NavigationView {
             AttributeListView(item: Item.preview() )
-                .environmentObject(Model())
         }
     }
 }

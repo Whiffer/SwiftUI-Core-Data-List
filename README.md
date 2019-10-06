@@ -4,7 +4,7 @@ Extended sample program to demonstrate how CoreData can be used with SwiftUI.
 This sample has been sort of a play ground to try to duplicate or reinvent some familiar 
 UIKit patterns using SwiftUI that are common with some Core Data based Apps.
 
-This project currently compiles and runs on Xcode 11.0 Beta 7 
+This project currently compiles and runs on Xcode 11.0 GM
 Current development testing has mostly been on iPhone devices.
 It does run on iPad and macOS with a few size class issues.
 
@@ -22,6 +22,8 @@ an appropriate View, which is usually different from the NavigationLink of the r
 
 =======================
 
-This project is still a work in progress.  Several more changes will be made in the near future.
+10/6/19 UPDATED: Simplified the NavigationLink bindings by using isActive and a local State var.
+
+This project is still a work in progress.  Several more changes may be made in the near future.
 
 

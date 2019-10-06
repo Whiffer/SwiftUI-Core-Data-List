@@ -10,20 +10,19 @@ import SwiftUI
 
 struct ItemDetailDisclosureButton: View {
     
-    @EnvironmentObject var model: Model
-    
     let item:  Item
     
+    @State private var showingItemDetail = false
+    
     var body: some View {
-        
+
         return HStack {
             Image(systemName: "info.circle")
                 .onTapGesture {
-                    self.model.pushedItemDetail = self.item
+                    self.showingItemDetail = true
             }
             NavigationLink(destination: ItemDetailView(item: item),
-                           tag: self.item,
-                           selection: self.$model.pushedItemDetail)
+                           isActive: self.$showingItemDetail)
             { EmptyView() }
                 .frame(width: 0, height: 0)
                 .disabled(true)
@@ -37,7 +36,6 @@ struct ItemDetailDisclosureButton: View {
 struct ItemDetailDisclosureButton_Previews: PreviewProvider {
     static var previews: some View {
         ItemDetailDisclosureButton(item: Item.preview() )
-            .environmentObject(Model())
     }
 }
 #endif

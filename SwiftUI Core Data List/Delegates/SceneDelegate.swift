@@ -23,9 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let context = CoreData.stack.context
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView: ItemListView()
-                .environment(\.managedObjectContext, context)
-                .environmentObject(Model())
-)
+                .environment(\.managedObjectContext, context) )
             self.window = window
             window.makeKeyAndVisible()
         }

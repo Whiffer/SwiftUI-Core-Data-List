@@ -10,20 +10,19 @@ import SwiftUI
 
 struct AttributeDetailDisclosureButton: View {
     
-    @EnvironmentObject var model: Model
-    
     let attribute:  Attribute
     
+    @State private var showingAttributeDetail = false
+
     var body: some View {
         
         return HStack {
             Image(systemName: "info.circle")
                 .onTapGesture {
-                    self.model.pushedAttributeDetail = self.attribute
+                    self.showingAttributeDetail = true
             }
             NavigationLink(destination: AttributeDetailView(attribute: attribute),
-                           tag: self.attribute,
-                           selection: self.$model.pushedAttributeDetail)
+                           isActive: self.$showingAttributeDetail)
             { EmptyView() }
                 .frame(width: 0, height: 0)
                 .disabled(true)
@@ -37,7 +36,6 @@ struct AttributeDetailDisclosureButton: View {
 struct AttributeDetailDisclosureButton_Previews: PreviewProvider {
     static var previews: some View {
         AttributeDetailDisclosureButton(attribute: Attribute.preview() )
-            .environmentObject(Model())
     }
 }
 #endif

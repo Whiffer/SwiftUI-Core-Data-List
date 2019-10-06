@@ -11,8 +11,6 @@ import Combine
 
 struct ItemDetailView : View {
     
-    @EnvironmentObject var model: Model
-
     var item: Item
     
     var body: some View {
@@ -46,10 +44,6 @@ struct ItemDetailView : View {
 
         }
         .navigationBarTitle("Item Details", displayMode: .large)
-        .navigationBarBackButtonHidden(true) // workaround - not needed, but just in case
-        .navigationBarItems(leading: BackButton(label: "Back") {
-            self.model.pushedItemDetail = nil
-        })
     }
 }
 
@@ -58,7 +52,6 @@ struct ItemDetailView_Previews : PreviewProvider {
     static var previews: some View {
         NavigationView {
             ItemDetailView(item: Item.preview() )
-                .environmentObject(Model())
         }
     }
 }

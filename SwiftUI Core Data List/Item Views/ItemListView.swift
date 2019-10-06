@@ -50,7 +50,6 @@ struct ContentView_Previews : PreviewProvider {
         
         NavigationView {
             ItemListView()
-                .environmentObject(Model())
         }
     }
 }

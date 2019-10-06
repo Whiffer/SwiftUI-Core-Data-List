@@ -25,10 +25,8 @@
 		13B2A900230BA12100054945 /* Attribute+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A8FC230BA12100054945 /* Attribute+CoreDataClass.swift */; };
 		13B2A901230BA12100054945 /* Attribute+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B2A8FD230BA12100054945 /* Attribute+CoreDataProperties.swift */; };
 		13BB3F9A2310705C00F1CA35 /* AttributeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BB3F992310705C00F1CA35 /* AttributeListCell.swift */; };
-		13BB3F9C2310B09300F1CA35 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BB3F9B2310B09300F1CA35 /* Model.swift */; };
 		13CD74F8230CC1A100833465 /* AttributeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD74F7230CC1A100833465 /* AttributeDetailView.swift */; };
 		13CFEE91230B4949002EFF1A /* ItemListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFEE8F230B4949002EFF1A /* ItemListCell.swift */; };
-		13D4B97C2319AF430079EAAB /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D4B97B2319AF430079EAAB /* BackButton.swift */; };
 		13F166AB2300732B00F4DBA0 /* CoreDataDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F166AA2300732B00F4DBA0 /* CoreDataDataSource.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +52,8 @@
 		13B2A8FC230BA12100054945 /* Attribute+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Attribute+CoreDataClass.swift"; sourceTree = "<group>"; };
 		13B2A8FD230BA12100054945 /* Attribute+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Attribute+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		13BB3F992310705C00F1CA35 /* AttributeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeListCell.swift; sourceTree = "<group>"; };
-		13BB3F9B2310B09300F1CA35 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		13CD74F7230CC1A100833465 /* AttributeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeDetailView.swift; sourceTree = "<group>"; };
 		13CFEE8F230B4949002EFF1A /* ItemListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListCell.swift; sourceTree = "<group>"; };
-		13D4B97B2319AF430079EAAB /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		13F166AA2300732B00F4DBA0 /* CoreDataDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,7 +157,6 @@
 			children = (
 				139CD87C22C2A4D500E99642 /* AppDelegate.swift */,
 				139CD87E22C2A4D500E99642 /* SceneDelegate.swift */,
-				13BB3F9B2310B09300F1CA35 /* Model.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -171,7 +166,6 @@
 			children = (
 				133707C22318D2550051FF3C /* ItemDetailDisclosureButton.swift */,
 				135446C2231AF486002D896D /* AttributeDetailDisclosureButton.swift */,
-				13D4B97B2319AF430079EAAB /* BackButton.swift */,
 			);
 			path = "View Modifiers";
 			sourceTree = "<group>";
@@ -251,11 +245,9 @@
 				13B2A8FE230BA12100054945 /* Item+CoreDataClass.swift in Sources */,
 				13CFEE91230B4949002EFF1A /* ItemListCell.swift in Sources */,
 				13BB3F9A2310705C00F1CA35 /* AttributeListCell.swift in Sources */,
-				13D4B97C2319AF430079EAAB /* BackButton.swift in Sources */,
 				13B2A901230BA12100054945 /* Attribute+CoreDataProperties.swift in Sources */,
 				13B2A8FF230BA12100054945 /* Item+CoreDataProperties.swift in Sources */,
 				139015FD22C2E1A800EA7B48 /* ItemDetailView.swift in Sources */,
-				13BB3F9C2310B09300F1CA35 /* Model.swift in Sources */,
 				139CD88222C2A4D500E99642 /* SwiftUI_Core_Data_List.xcdatamodeld in Sources */,
 				133707B4231715C10051FF3C /* AttributeListView.swift in Sources */,
 				1390164722C312B200EA7B48 /* CoreData.swift in Sources */,
