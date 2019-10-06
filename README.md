@@ -22,7 +22,7 @@ an appropriate View, which is usually different from the NavigationLink of the r
 
 =======================
 
-10/6/19 UPDATED: Simplified the NavigationLink bindings by using isActive and a local State var.
+10/6/19 UPDATED: Simplified the NavigationLink bindings by using isActive and a local State var. 
 
 This project is still a work in progress.  Several more changes may be made in the near future.
 
